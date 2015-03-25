@@ -1,0 +1,25 @@
+{
+  "name": "Dibujillo",
+  "version": "1.0.0",
+  "description": "An app to practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IanMendozaJaimes/Dibujillo.git"
+  },
+  "author": "Ian Mendoza Jaimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanMendozaJaimes/Dibujillo/issues"
+  },
+  "homepage": "https://github.com/IanMendozaJaimes/Dibujillo",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "mongoose": "^3.8.25",
+    "swig": "^1.4.2"
+  }
+}

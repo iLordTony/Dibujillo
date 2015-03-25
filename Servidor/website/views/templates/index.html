@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<section class="Section-index">
+		<article class = "Article-imagen">
+			
+		</article>
+		<article class = "Article-registro">
+			<h2>Logueate aqui para jugar</h2>
+			<form action="/usuario/login/" method="post">
+				<input type="text" name="nick" placeholder="Nickname" required >
+				<input type="submit" name="enviar" >
+			</form>
+		</article>
+	</section>
+{% endblock %}
